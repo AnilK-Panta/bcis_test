@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div >
+      <INPUT TYPE="Password" NAME="newpwd1" id="pwSize" TABINDEX="2" CLASS="W200" onchange="checkChar(value)">
+    </div>
+
+
+
+    <script>
+      function checkChar(val){
+        if(val.length>20){
+          alert("Maximum char")
+        }
+      }
+    </script>
+</body>
+</html>
